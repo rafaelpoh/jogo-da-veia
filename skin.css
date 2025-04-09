@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.square{
+    background-color: #121689;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "\1F475";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content: "\1F474";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
