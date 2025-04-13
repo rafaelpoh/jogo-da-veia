@@ -12,10 +12,10 @@ h1{
     width: 100px;
     display: inline-block;
 }
-.o{
+.O{
     position: relative;
 }
-.o::after{
+.O::after{
     position: absolute;
     content: "\1F475";
     font-size: 50px;
@@ -25,10 +25,10 @@ h1{
     left: 0;
     right: 0;
 }
-.x{
+.X{
     position: relative;
 }
-.x::after{
+.X::after{
     position: absolute;
     content: "\1F474";
     font-size: 50px;
