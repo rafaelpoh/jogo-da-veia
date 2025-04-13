@@ -1,6 +1,6 @@
 let board = ['', '', '', '', '', '', '', '', ''];
 let playerDaVez = '0';
-let simbols = ['O', 'X'];
+let simbols = ['velha', 'velho'];
 
 function movimento(posicao) {
   board[posicao] = simbols [playerDaVez];
@@ -26,7 +26,7 @@ function checkWin() {
     for (let i = 0; i < winningCombinations.length; i++) {
       let [a, b, c] = winningCombinations[i];
       if (board[a] && board[a] === board[b] && board[a] === board[c]) {
-        alert(`Player ${board[a]} wins!`);
+        alert(`${board[a]} venceu!`);
         resetGame();
         return;
       }
